@@ -8,9 +8,9 @@ config.default_prog = { "pwsh.exe", "-NoLogo" }
 -- Appearance
 config.color_scheme = "Tokyo Night"
 config.font = wezterm.font("JetBrainsMono Nerd Font")
-config.font_size = 11
-config.text_background_opacity = 0.4
-config.window_background_opacity = 0.4
+config.font_size = 10
+config.text_background_opacity = 0.8
+config.window_background_opacity = 0.8
 
 -- No padding (fixes the border around nvim)
 config.window_padding = { left = 4, right = 4, top = 4, bottom = 4 }
